@@ -21,8 +21,6 @@ let unit = document.querySelector('#unit');
 let unitCount = 0;
 let itemCount = 0;
 
-const deleteItem = itemCount >= 1 && document.querySelector('.icon-delete');
-
 // Nav
 openNav.addEventListener('click', (e) => {
   e.preventDefault();
