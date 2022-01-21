@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | E-commerce product page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <a href="" class="nav-btn">
+        <img src="/images/icon-menu.svg" alt="">
+      </a>
+      
+      <img src="/images/logo.svg" alt="Logo" srcset="" class="logo">
+
+      <nav class="">
+        
+        <ul class="nav-menu">
+          <button class="btn-close btn">
+            <img src="/images/icon-close.svg" alt="">
+          </button>
+          <li><a href="#" class="nav-link">Collections</a></li>
+          <li><a href="#" class="nav-link">Men</a></li>
+          <li><a href="#" class="nav-link">Women</a></li>
+          <li><a href="#" class="nav-link">About</a></li>
+          <li><a href="#" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div>
+      <div class="cart-icon">
+        <img src="/images/icon-cart.svg" alt="" >
+        <b class="cart-count">0</b>
+      </div>
+      
+      <img src="/images/image-avatar.png" alt="Profile Avatar" class="avatar">
+    </div>
+
+    <div class="cart">
+      <p class="cart-head">Cart</p>
+      <div class="cart-body">
+        <div class="cart-empty">
+          <p>Your Cart is empty</p>
+      </div
+      </div>
+    </div>
+    
+  </header>
+
+  <section>
+    <div class="product-div">
+
+      <button class="btn btn-prev">
+        <img src="/images/icon-previous.svg" alt="" srcset="">
+      </button>
+
+      <img src="/images/image-product-1.jpg" alt="" srcset="" class="product-img">
+
+      <button class="btn btn-next">
+        <img src="/images/icon-next.svg" alt="" srcset="">
+      </button>
+
+      <div class="thumbnail-div">
+
+        <img class="thumbnail active" src="/images/image-product-1-thumbnail.jpg" alt="">
+
+        <img class="thumbnail" src="/images/image-product-2-thumbnail.jpg" alt="">
+
+        <img class="thumbnail" src="/images/image-product-3-thumbnail.jpg" alt="">
+
+        <img class="thumbnail" src="/images/image-product-4-thumbnail.jpg" alt="">
+      </div>
+    </div>
+    <div class="product-desc">
+      <h4>Sneaker Company</h4>
+      <h1>Fall Limited Edition Sneakers</h1>
+      <p class="desc">These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they’ll withstand everything the weather can offer</p>
+
+      <div class="price">
+        <div class="curr">
+          <p class="curr-price">$125.00</p>
+          <span>50%</span>
+        </div>
+
+        <p class="init-price">$250.00</p>
+      </div>
+
+      <div class="cart-add">
+        <div class="unit-div">
+          <button class="btn btn-minus">
+            <img src="/images/icon-minus.svg" alt="" class="">
+          </button>
+          
+          <p id="unit">0</p>
+
+          <button class="btn btn-plus">
+            <img src="/images/icon-plus.svg" alt="" class="">
+          </button>
+          
+        </div>
+
+        <div class="add-cart">
+          <svg width="22" height="20" xmlns="http://www.w3.org/2000/svg"><path d="M20.925 3.641H3.863L3.61.816A.896.896 0 0 0 2.717 0H.897a.896.896 0 1 0 0 1.792h1l1.031 11.483c.073.828.52 1.726 1.291 2.336C2.83 17.385 4.099 20 6.359 20c1.875 0 3.197-1.87 2.554-3.642h4.905c-.642 1.77.677 3.642 2.555 3.642a2.72 2.72 0 0 0 2.717-2.717 2.72 2.72 0 0 0-2.717-2.717H6.365c-.681 0-1.274-.41-1.53-1.009l14.321-.842a.896.896 0 0 0 .817-.677l1.821-7.283a.897.897 0 0 0-.87-1.114ZM6.358 18.208a.926.926 0 0 1 0-1.85.926.926 0 0 1 0 1.85Zm10.015 0a.926.926 0 0 1 0-1.85.926.926 0 0 1 0 1.85Zm2.021-7.243-13.8.81-.57-6.341h15.753l-1.383 5.53Z" fill="#FFFFFF" fill-rule="nonzero"/></svg>
+          <a href="#" class="add-unit">Add to cart</a>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
